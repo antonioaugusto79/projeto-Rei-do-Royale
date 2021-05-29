@@ -45,10 +45,11 @@ table td img:hover
         
 }
 span {
-    display: block;
-    position: absolute;
-    top: 700px;
-    left: 780px;
+    display:inline-block;
+    position: relative;
+    left: 70%;
+   
+    
     font-family:'Bubblegum';
     font-size: 10pt;
 }
