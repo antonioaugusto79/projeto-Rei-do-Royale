@@ -40,15 +40,23 @@ a#linkdeck{
 button{
     border-style: none;
     border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
     background-color: #daa520;
     color:#4169e1;
     text-shadow: .5px .5px 1px rgb(6, 2, 63);
     display: inline-block;
     font-size: 15pt;
-    border-radius: 5px;
+    
     margin-top: 15px;
     text-decoration: underline;
-    
+}
+button:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        background-color: #816111;
+        transition: .5s;
 }
 aside {
     width: 400px;
