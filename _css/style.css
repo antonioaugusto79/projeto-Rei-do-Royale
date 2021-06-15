@@ -17,26 +17,29 @@ img#rei-vermelho {
     float: right;
     margin-right: auto;
 }
-/* Formatação da tabela */
-table{
+/* Formatação menu nav e unorder list*/
+
+nav {
     display: block;
-    padding-left: 75px;
-    border-spacing: 20px;
-    
-    
 }
-table caption {
-    font-family: 'Bubblegum';
-    font-size: 24pt;
-    color: black;
+ul{
+    list-style: none;
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    right: 250px;
 }
-table td img {
+li{
+    display: inline-block;
+}
+    
+li img {
     box-shadow : 1px 1px 4px black;  
     width: 240px;  
     border-radius: 15px 15px 15px 15px;
 
 }
-table td img:hover
+li img:hover
 {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
